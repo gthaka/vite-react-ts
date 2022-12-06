@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+
+  react-vite-ts:
+    build:
+      # dockerfile: Dockerfile
+      context: .
+    restart: always
+    ports:
+      - 9080:4173
